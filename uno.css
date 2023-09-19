@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.TOPRIGHT {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 8px;
+    font-style: normal;
+    border-bottom: 1px dashed;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding:5px;
+    color: #fff;
+}
+
+
+.NAVLEFT {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 8px;
+    font-style: normal;
+    border-bottom: 1px dashed;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding:5px;
+    color: #000;
+}
+
+.bgimg {
+    width: 800px;
+    height: 100%;
+    position: absolute; left:20%; top: 0%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.lmmtwTOPLEFT {
+    width: 200px;
+    position: absolute; left:22%; top: 5%;
+}
+
+.kidunoTOPLEFT {
+    width: 200px;
+    position: absolute; left:28%; top: 12%;
+}
+
+.navTOPRIGHT {
+    width: 400px;
+    position: absolute; left:58%; top: 5%;
+    display: inline;
+}
+
+.mainbox {
+    
+    width: 800px;
+    height: 100%;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+    border-top: 0px;
+    border-bottom: 0px;
+    color: #fff;
+    text-align: center;
+    position: absolute; left:20%; top:27%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subinmain {
+    
+    width: 650px;
+    height: 300px;
+    border: 0px dashed #ccc;
+    color: #fff;
+    text-align: center;
+    position: absolute; left:26%; top:45%;
+    overflow:scroll;
+    padding: none;
+}
+
+.subinmainDOS {
+    
+    width: 600px;
+    height: 250px;
+    border-left: 10px solid #ccc;
+    border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    color: #fff;
+    text-align: center;
+    position: absolute; left:27%; top:80%;
+    overflow:scroll;
+}
+
+.submainbottom {
+    
+    width: 250px;
+    height: 25px;
+    border-left: 1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-bottom:5px solid #ccc;
+    padding: 5px;
+    color: #fff;
+    position: absolute; left:55%; top:122%;
+    overflow:scroll;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.navbar {
+    
+    width: 150px;
+    height: 400px;
+    border: 1px dashed black;
+    color: #000;
+    text-align: center;
+    position: absolute; left:5%; top:150px;
+}
+
+.RIGHTBOTTOM {
+
+    width: 150px;
+    height: 220px;
+    border: 1px dashed black;
+    color: #000;
+    text-align: center;
+    position: absolute; left:82%; top:575px;
+    overflow:scroll;
+    padding:none;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    color: #2a5257;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-variant: small-caps;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-variant: small-caps;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 0px;
+    background-color: inherit;
+}
+
+::-webkit-scrollbar-track {border-radius: 0px;}
+
+::-webkit-scrollbar-thumb {
+    background: #4e6c74;
+    min-height: 35px;
+    min-width: 35px;
+    border-radius: 0px;
+}
