@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background: linear-gradient(#ccc, #65bdca);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25x;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: bold;;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#starsuno {
+    width:150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+#open {
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.woot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftsection {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    height:500px;
+    width: 500px;
+    border: 5px solid white;
+    background-image: url("openhurr.png");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.img:hover {
+    background-image: url("https://media.giphy.com/media/Od0QRnzwRBYmDU3eEO/giphy.gif");
+    background-size: cover;
+}
+
+#footer {
+    width: 400px;
+    margin: 40px auto;
+
+}
